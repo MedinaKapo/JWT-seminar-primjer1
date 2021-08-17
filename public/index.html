@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesLogin.css">
+    <title>WT seminar 2020./2021</title>
+
+</head>
+
+<body>
+    <h1 class="naslov">Dobro dosli!</h1>
+    <div class="glavni">
+        <div class="odjeljak">
+            <h3>Ovo je pocetna stranica implementacionog dijela seminarskog rada iz predmeta "Web tehnologije".</h3>
+            <p>Cilj ovog seminarskog rada je da prikaze na koji nacin funkcionisu JWT tokeni i sta se desava prilikom upotrebe istih sa stajalista frontend-a.
+                <br> Ukoliko zelite da se prijavite, pritisnite dugme "Login" i unesite kredencijale. Posto je u pitanju pokazni primjer, koristite default-ne kredencijale.
+                <br>
+                <br>
+                <h3 style="text-align: center;">Default-ni kredencijali su:</h3>
+                <div class="kredencijali">
+                    <h4 class="lista">
+
+                        username: seminarski
+                    </h4>
+                    <h4 class="lista">
+                        password: seminarwt1
+                    </h4>
+
+                </div>
+
+                <br> Pritiskom na dugme "Login", bit cete preusmjereni na SSO login stranicu Keycloak-a.
+
+        </div>
+    </div>
+
+    <div class="traka">
+        <form action="http://localhost:8085/login.html" id="login">
+            <input type="submit" class="button" value="Login" />
+        </form>
+
+    </div>
+
+</body>
+
+</html>

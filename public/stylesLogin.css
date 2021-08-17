@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.naslov {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.lista {
+    text-align: center;
+    color: blue;
+}
+
+#clan {
+    align-items: center;
+}
+
+.traka {
+    overflow: hidden;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+    height: 40%;
+}
+
+.kredencijali {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 50%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 2px solid #2123ad;
+    background-color: rgb(173, 255, 237)
+}
+
+.odjeljak {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+}
+
+.glavni:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#login {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 90%;
+    border-radius: 25px;
+    float: initial;
+    text-align: center;
+    font-size: 25px;
+}
+
+.button {
+    position: relative;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 25%;
+    height: 100%;
+}
+
+.button:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.glavni {
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+}
+
+@media screen and (max-width:600px) {
+    .odjeljak {
+        width: 100%;
+    }
+}
